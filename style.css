@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around ;
+   
+}
+.align1 {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    
+}
+
+.form{
+    width: 70%;
+    height: 35px;
+    position: relative;
+    margin-right: 60px;
+}
+.icon {
+    position: absolute;
+    font-size: 30px;
+    color: rgb(255, 13, 13);
+    top: 10%;
+    left: 82%;
+}
+
+input[type=text] {
+    width: 90%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 16px;
+    
+    
+  }
+
+  .menu {
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    
+}
+
+.menu > lu{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    
+}
+
+.menu > lu > li {
+    
+    display: inline;
+    color: black ;
+    margin-bottom: 1px ;
+    float: left;
+}
+
+.menu > lu > li > a {
+    
+    display: inline ;
+    color: black ;
+    font: 1em "Trebuchet MS",Arial,sans-serif ;
+    line-height: 1em ;
+    text-align: center ;
+    justify-content: space-between;
+    text-decoration: none ;
+    padding: 4px 0 ;
+}
+
+.ex {
+    font-size: 30px;
+}
+
+.sign{
+    width: 70px;
+    background: red;
+    text-align: center;
+    border-radius: 25px 25px 25px 25px;
+    font-size: 20px;
+    
+}
+
+.menu2{
+    width: 100%;
+    height: 50px;
+    background-color: #f9bf92;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+ 
+.menu2 > lu{
+    width: 40%;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.menu2 > lu > li {
+    
+    display: inline;
+    color: black ;
+    margin-bottom: 1px ;
+    
+}
+
+.menu2 > lu > li > a {
+    
+    display: inline ;
+    color: black ;
+    font: 1em "Trebuchet MS",Arial,sans-serif ;
+    line-height: 1em ;
+    text-align: center ;
+    justify-content: center;
+    text-decoration: none ;
+    padding: 4px 0 ;
+}
+.imgBlog {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+   
+    
+}
+.imgBlog img {
+    position: relative;
+    width: 87%;
+    height: 500px;
+    
+}
+.imgBlog h2 {
+    font-size: 46px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
